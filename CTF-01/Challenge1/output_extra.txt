@@ -1,0 +1,728 @@
+Microsoft Windows [Version 10.0.26200.9168]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\vipul\OneDrive\Desktop\Projects and DSA\Crypto>C:\Users\vipul\miniconda3\Scripts\activate && conda activate trading_env
+
+(trading_env) C:\Users\vipul\OneDrive\Desktop\Projects and DSA\Crypto>C:\Users\vipul\miniconda3\envs\trading_env\python.exe "c:/Users/vipul/OneDrive/Desktop/Projects and DSA/Crypto/CTF-01/Challenge1/solver.py"
+Traceback (most recent call last):
+  File "c:\Users\vipul\OneDrive\Desktop\Projects and DSA\Crypto\CTF-01\Challenge1\solver.py", line 125, in <module>
+    main()
+  File "c:\Users\vipul\OneDrive\Desktop\Projects and DSA\Crypto\CTF-01\Challenge1\solver.py", line 73, in main
+    ciphertext = load_ciphertext()
+                 ^^^^^^^^^^^^^^^^^
+  File "c:\Users\vipul\OneDrive\Desktop\Projects and DSA\Crypto\CTF-01\Challenge1\solver.py", line 8, in load_ciphertext
+    with open(filename, "r") as f:
+         ^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'ciphertext.txt'
+
+(trading_env) C:\Users\vipul\OneDrive\Desktop\Projects and DSA\Crypto>cd CTF-01
+
+(trading_env) C:\Users\vipul\OneDrive\Desktop\Projects and DSA\Crypto\CTF-01>cd Challenge1
+
+(trading_env) C:\Users\vipul\OneDrive\Desktop\Projects and DSA\Crypto\CTF-01\Challenge1>C:\Users\vipul\miniconda3\envs\trading_env\python.exe "c:/Users/vipul/OneDrive/Desktop/Projects and DSA/Crypto/CTF-01/Challenge1/solver.py"
+Counter({'w': 221, 'o': 213, 'n': 198, 'l': 181, 'q': 158, 'y': 149, 'k': 143, 'd': 133, 'e': 91, 'b': 85, 'p': 82, 'x': 82, 'z': 73, 'j': 63, 'c': 63, 't': 53, 'v': 53, 'm': 48, 'g': 38, 'u': 32, 's': 24, 'i': 14, 'a': 11, 'f': 5, 'h': 4, 'r': 1})
+
+Initial plaintext:
+------------------
+
+Options:
+  1. Show plaintext
+  2. Show frequency
+  3. Show mapping
+  4. Set mapping
+  5. Quit
+
+Choice: 1
+
+Current plaintext:
+------------------
+
+Options:
+  1. Show plaintext
+  2. Show frequency
+  3. Show mapping
+  4. Set mapping
+  5. Quit
+
+Choice: 4
+Ciphertext character: b
+Plaintext character: c
+
+Options:
+  1. Show plaintext
+  2. Show frequency
+  3. Show mapping
+  4. Set mapping
+  5. Quit
+
+Choice: 1
+
+Current plaintext:
+------------------
+
+Options:
+  1. Show plaintext
+  2. Show frequency
+  3. Show mapping
+  4. Set mapping
+  5. Quit
+
+Choice: 4
+Ciphertext character: y
+Plaintext character: s
+
+Options:
+  1. Show plaintext
+  2. Show frequency
+  3. Show mapping
+  4. Set mapping
+  5. Quit
+
+Choice: 1
+
+Current plaintext:
+------------------
+
+Options:
+  1. Show plaintext
+  2. Show frequency
+  3. Show mapping
+  4. Set mapping
+  5. Quit
+
+Choice: 2
+Counter({'w': 221, 'o': 213, 'n': 198, 'l': 181, 'q': 158, 'y': 149, 'k': 143, 'd': 133, 'e': 91, 'b': 85, 'p': 82, 'x': 82, 'z': 73, 'j': 63, 'c': 63, 't': 53, 'v': 53, 'm': 48, 'g': 38, 'u': 32, 's': 24, 'i': 14, 'a': 11, 'f': 5, 'h': 4, 'r': 1})
+
+Options:
+  1. Show plaintext
+  2. Show frequency
+  3. Show mapping
+  4. Set mapping
+  5. Quit
+
+Choice: C:\Users\vipul\miniconda3\envs\trading_env\python.exe "c:/Users/vipul/OneDrive/Desktop/Projects and DSA/Crypto/CTF-01/Challenge1/solver.py"
+Invalid choice.
+
+Options:
+  1. Show plaintext
+  2. Show frequency
+  3. Show mapping
+  4. Set mapping
+  5. Quit
+
+Choice: C:\Users\vipul\miniconda3\envs\trading_env\python.exe "c:/Users/vipul/OneDrive/Desktop/Projects and DSA/Crypto/CTF-01/Challenge1/solver.py"
+Invalid choice.
+
+Options:
+  1. Show plaintext
+  2. Show frequency
+  3. Show mapping
+  4. Set mapping
+  5. Quit
+
+Choice: C:\Users\vipul\miniconda3\envs\trading_env\python.exe "c:/Users/vipul/OneDrive/Desktop/Projects and DSA/Crypto/CTF-01/Challenge1/solver.py"
+Invalid choice.
+
+Options:
+  1. Show plaintext
+  2. Show frequency
+  3. Show mapping
+  4. Set mapping
+  5. Quit
+
+Choice: Traceback (most recent call last):
+  File "c:\Users\vipul\OneDrive\Desktop\Projects and DSA\Crypto\CTF-01\Challenge1\solver.py", line 125, in <module>
+    
+  File "c:\Users\vipul\OneDrive\Desktop\Projects and DSA\Crypto\CTF-01\Challenge1\solver.py", line 89, in main
+    print("  6. Quit")
+             ^^^^^^^^^^
+KeyboardInterrupt
+^C
+(trading_env) C:\Users\vipul\OneDrive\Desktop\Projects and DSA\Crypto\CTF-01\Challenge1>
+
+(trading_env) C:\Users\vipul\OneDrive\Desktop\Projects and DSA\Crypto\CTF-01\Challenge1>C:\Users\vipul\miniconda3\envs\trading_env\python.exe "c:/Users/vipul/OneDrive/Desktop/Projects and DSA/Crypto/CTF-01/Challenge1/solver.py"
+Counter({'w': 221, 'o': 213, 'n': 198, 'l': 181, 'q': 158, 'y': 149, 'k': 143, 'd': 133, 'e': 91, 'b': 85, 'p': 82, 'x': 82, 'z': 73, 'j': 63, 'c': 63, 't': 53, 'v': 53, 'm': 48, 'g': 38, 'u': 32, 's': 24, 'i': 14, 'a': 11, 'f': 5, 'h': 4, 'r': 1})
+
+Initial plaintext:
+------------------
+
+Options:
+  1. Show plaintext
+  2. Show frequency
+  3. Show mapping
+  4. Set mapping
+  5. Reset Mapping
+  6. Quit
+
+Choice: 2
+Counter({'w': 221, 'o': 213, 'n': 198, 'l': 181, 'q': 158, 'y': 149, 'k': 143, 'd': 133, 'e': 91, 'b': 85, 'p': 82, 'x': 82, 'z': 73, 'j': 63, 'c': 63, 't': 53, 'v': 53, 'm': 48, 'g': 38, 'u': 32, 's': 24, 'i': 14, 'a': 11, 'f': 5, 'h': 4, 'r': 1})
+
+Options:
+  1. Show plaintext
+  2. Show frequency
+  3. Show mapping
+  4. Set mapping
+  5. Reset Mapping
+  6. Quit
+
+Choice: 4
+Ciphertext character: w
+Plaintext character: e
+
+Options:
+  1. Show plaintext
+  2. Show frequency
+  3. Show mapping
+  4. Set mapping
+  5. Reset Mapping
+  6. Quit
+
+Choice: 4
+Ciphertext character: o
+Plaintext character: t
+
+Options:
+  1. Show plaintext
+  2. Show frequency
+  3. Show mapping
+  4. Set mapping
+  5. Reset Mapping
+  6. Quit
+
+Choice: 2
+Counter({'w': 221, 'o': 213, 'n': 198, 'l': 181, 'q': 158, 'y': 149, 'k': 143, 'd': 133, 'e': 91, 'b': 85, 'p': 82, 'x': 82, 'z': 73, 'j': 63, 'c': 63, 't': 53, 'v': 53, 'm': 48, 'g': 38, 'u': 32, 's': 24, 'i': 14, 'a': 11, 'f': 5, 'h': 4, 'r': 1})
+
+Options:
+  1. Show plaintext
+  2. Show frequency
+  3. Show mapping
+  4. Set mapping
+  5. Reset Mapping
+  6. Quit
+
+Choice: 4
+Ciphertext character: n
+Plaintext character: a
+
+Options:
+  1. Show plaintext
+  2. Show frequency
+  3. Show mapping
+  4. Set mapping
+  5. Reset Mapping
+  6. Quit
+
+Choice: 2
+Counter({'w': 221, 'o': 213, 'n': 198, 'l': 181, 'q': 158, 'y': 149, 'k': 143, 'd': 133, 'e': 91, 'b': 85, 'p': 82, 'x': 82, 'z': 73, 'j': 63, 'c': 63, 't': 53, 'v': 53, 'm': 48, 'g': 38, 'u': 32, 's': 24, 'i': 14, 'a': 11, 'f': 5, 'h': 4, 'r': 1})
+
+Options:
+  1. Show plaintext
+  2. Show frequency
+  3. Show mapping
+  4. Set mapping
+  5. Reset Mapping
+  6. Quit
+
+Choice: 4
+Ciphertext character: l
+Plaintext character: o
+
+Options:
+  1. Show plaintext
+  2. Show frequency
+  3. Show mapping
+  4. Set mapping
+  5. Reset Mapping
+  6. Quit
+
+Choice: 2
+Counter({'w': 221, 'o': 213, 'n': 198, 'l': 181, 'q': 158, 'y': 149, 'k': 143, 'd': 133, 'e': 91, 'b': 85, 'p': 82, 'x': 82, 'z': 73, 'j': 63, 'c': 63, 't': 53, 'v': 53, 'm': 48, 'g': 38, 'u': 32, 's': 24, 'i': 14, 'a': 11, 'f': 5, 'h': 4, 'r': 1})
+
+Options:
+  1. Show plaintext
+  2. Show frequency
+  3. Show mapping
+  4. Set mapping
+  5. Reset Mapping
+  6. Quit
+
+Choice: 4
+Ciphertext character: q
+Plaintext character: i
+
+Options:
+  1. Show plaintext
+  2. Show frequency
+  3. Show mapping
+  4. Set mapping
+  5. Reset Mapping
+  6. Quit
+
+Choice: 2
+Counter({'w': 221, 'o': 213, 'n': 198, 'l': 181, 'q': 158, 'y': 149, 'k': 143, 'd': 133, 'e': 91, 'b': 85, 'p': 82, 'x': 82, 'z': 73, 'j': 63, 'c': 63, 't': 53, 'v': 53, 'm': 48, 'g': 38, 'u': 32, 's': 24, 'i': 14, 'a': 11, 'f': 5, 'h': 4, 'r': 1})
+
+Options:
+  1. Show plaintext
+  2. Show frequency
+  3. Show mapping
+  4. Set mapping
+  5. Reset Mapping
+  6. Quit
+
+Choice: 4
+Ciphertext character: y
+Plaintext character: n
+
+Options:
+  1. Show plaintext
+  2. Show frequency
+  3. Show mapping
+  4. Set mapping
+  5. Reset Mapping
+  6. Quit
+
+Choice: 4
+Ciphertext character: k
+Plaintext character: s
+
+Options:
+  1. Show plaintext
+  2. Show frequency
+  3. Show mapping
+  4. Set mapping
+  5. Reset Mapping
+  6. Quit
+
+Choice: 1
+
+Current plaintext:
+------------------
+
+Options:
+  1. Show plaintext
+  2. Show frequency
+  3. Show mapping
+  4. Set mapping
+  5. Reset Mapping
+  6. Quit
+
+Choice: C:\Users\vipul\miniconda3\envs\trading_env\python.exe "c:/Users/vipul/OneDrive/Desktop/Projects and DSA/Crypto/CTF-01/Challenge1/solver.py"
+Invalid choice.
+
+Options:
+  1. Show plaintext
+  2. Show frequency
+  3. Show mapping
+  4. Set mapping
+  5. Reset Mapping
+  6. Quit
+
+Choice: Traceback (most recent call last):
+  File "c:\Users\vipul\OneDrive\Desktop\Projects and DSA\Crypto\CTF-01\Challenge1\solver.py", line 127, in <module>
+    main()
+  File "c:\Users\vipul\OneDrive\Desktop\Projects and DSA\Crypto\CTF-01\Challenge1\solver.py", line 90, in main
+    choice = input("\nChoice: ").strip()
+             ^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+^C
+(trading_env) C:\Users\vipul\OneDrive\Desktop\Projects and DSA\Crypto\CTF-01\Challenge1>C:\Users\vipul\miniconda3\envs\trading_env\python.exe "c:/Users/vipul/OneDrive/Desktop/Projects and DSA/Crypto/CTF-01/Challenge1/solver.py"
+0
+
+Initial plaintext:
+------------------
+
+Options:
+  1. Show plaintext
+  2. Show frequency
+  3. Show mapping
+  4. Set mapping
+  5. Reset Mapping
+  6. Quit
+
+Choice: 2
+0
+
+Options:
+  1. Show plaintext
+  2. Show frequency
+  3. Show mapping
+  4. Set mapping
+  5. Reset Mapping
+  6. Quit
+
+Choice: Traceback (most recent call last):
+  File "c:\Users\vipul\OneDrive\Desktop\Projects and DSA\Crypto\CTF-01\Challenge1\solver.py", line 127, in <module>
+    main()
+  File "c:\Users\vipul\OneDrive\Desktop\Projects and DSA\Crypto\CTF-01\Challenge1\solver.py", line 90, in main
+    choice = input("\nChoice: ").strip()
+             ^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+^C
+(trading_env) C:\Users\vipul\OneDrive\Desktop\Projects and DSA\Crypto\CTF-01\Challenge1>C:\Users\vipul\miniconda3\envs\trading_env\python.exe "c:/Users/vipul/OneDrive/Desktop/Projects and DSA/Crypto/CTF-01/Challenge1/solver.py"
+Counter({'w': 221, 'o': 213, 'n': 198, 'l': 181, 'q': 158, 'y': 149, 'k': 143, 'd': 133, 'e': 91, 'b': 85, 'p': 82, 'x': 82, 'z': 73, 'j': 63, 'c': 63, 't': 53, 'v': 53, 'm': 48, 'g': 38, 'u': 32, 's': 24, 'i': 14, 'a': 11, 'f': 5, 'h': 4, 'r': 1})
+
+Initial plaintext:
+------------------
+
+Options:
+  1. Show plaintext
+  2. Show frequency
+  3. Show mapping
+  4. Set mapping
+  5. Reset Mapping
+  6. Quit
+
+Choice: 2
+Counter({'w': 221, 'o': 213, 'n': 198, 'l': 181, 'q': 158, 'y': 149, 'k': 143, 'd': 133, 'e': 91, 'b': 85, 'p': 82, 'x': 82, 'z': 73, 'j': 63, 'c': 63, 't': 53, 'v': 53, 'm': 48, 'g': 38, 'u': 32, 's': 24, 'i': 14, 'a': 11, 'f': 5, 'h': 4, 'r': 1})
+
+Options:
+  1. Show plaintext
+  2. Show frequency
+  3. Show mapping
+  4. Set mapping
+  5. Reset Mapping
+  6. Quit
+
+Choice: 4
+Ciphertext character: b
+Plaintext character: c
+
+Options:
+  1. Show plaintext
+  2. Show frequency
+  3. Show mapping
+  4. Set mapping
+  5. Reset Mapping
+  6. Quit
+
+Choice: 4
+Ciphertext character: k
+Plaintext character: s
+
+Options:
+  1. Show plaintext
+  2. Show frequency
+  3. Show mapping
+  4. Set mapping
+  5. Reset Mapping
+  6. Quit
+
+Choice: 4
+Ciphertext character: v
+Plaintext character: m
+
+Options:
+  1. Show plaintext
+  2. Show frequency
+  3. Show mapping
+  4. Set mapping
+  5. Reset Mapping
+  6. Quit
+
+Choice: 1
+
+Current plaintext:
+------------------
+
+Options:
+  1. Show plaintext
+  2. Show frequency
+  3. Show mapping
+  4. Set mapping
+  5. Reset Mapping
+  6. Quit
+
+Choice: 3
+
+Current mapping:
+----------------
+a -> a
+b -> c
+c -> c
+d -> d
+e -> e
+f -> f
+g -> g
+h -> h
+i -> i
+j -> j
+k -> s
+l -> l
+m -> m
+n -> n
+o -> o
+p -> p
+q -> q
+r -> r
+s -> s
+t -> t
+u -> u
+v -> m
+w -> w
+x -> x
+y -> y
+z -> z
+
+Options:
+  1. Show plaintext
+  2. Show frequency
+  3. Show mapping
+  4. Set mapping
+  5. Reset Mapping
+  6. Quit
+
+Choice: 1
+
+Current plaintext:
+------------------
+
+Options:
+  1. Show plaintext
+  2. Show frequency
+  3. Show mapping
+  4. Set mapping
+  5. Reset Mapping
+  6. Quit
+
+Choice: 1
+
+Current plaintext:
+------------------
+
+Options:
+  1. Show plaintext
+  2. Show frequency
+  3. Show mapping
+  4. Set mapping
+  5. Reset Mapping
+  6. Quit
+
+Choice: 3
+
+Current mapping:
+----------------
+a -> a
+b -> c
+c -> c
+d -> d
+e -> e
+f -> f
+g -> g
+h -> h
+i -> i
+j -> j
+k -> s
+l -> l
+m -> m
+n -> n
+o -> o
+p -> p
+q -> q
+r -> r
+s -> s
+t -> t
+u -> u
+v -> m
+w -> w
+x -> x
+y -> y
+z -> z
+
+Options:
+  1. Show plaintext
+  2. Show frequency
+  3. Show mapping
+  4. Set mapping
+  5. Reset Mapping
+  6. Quit
+
+Choice: 4
+Ciphertext character: y
+Plaintext character: r
+
+Options:
+  1. Show plaintext
+  2. Show frequency
+  3. Show mapping
+  4. Set mapping
+  5. Reset Mapping
+  6. Quit
+
+Choice: 4
+Ciphertext character: j
+Plaintext character: y
+
+Options:
+  1. Show plaintext
+  2. Show frequency
+  3. Show mapping
+  4. Set mapping
+  5. Reset Mapping
+  6. Quit
+
+Choice: 4
+Ciphertext character: p
+Plaintext character: p
+
+Options:
+  1. Show plaintext
+  2. Show frequency
+  3. Show mapping
+  4. Set mapping
+  5. Reset Mapping
+  6. Quit
+
+Choice: 4
+Ciphertext character: w
+Plaintext character: t
+
+Options:
+  1. Show plaintext
+  2. Show frequency
+  3. Show mapping
+  4. Set mapping
+  5. Reset Mapping
+  6. Quit
+
+Choice: 4
+Ciphertext character: q
+Plaintext character: o
+
+Options:
+  1. Show plaintext
+  2. Show frequency
+  3. Show mapping
+  4. Set mapping
+  5. Reset Mapping
+  6. Quit
+
+Choice: 4
+Ciphertext character: t
+Plaintext character: g
+
+Options:
+  1. Show plaintext
+  2. Show frequency
+  3. Show mapping
+  4. Set mapping
+  5. Reset Mapping
+  6. Quit
+
+Choice: 4
+Ciphertext character: n
+Plaintext character: a
+
+Options:
+  1. Show plaintext
+  2. Show frequency
+  3. Show mapping
+  4. Set mapping
+  5. Reset Mapping
+  6. Quit
+
+Choice: 4
+Ciphertext character: e
+Plaintext character: h
+
+Options:
+  1. Show plaintext
+  2. Show frequency
+  3. Show mapping
+  4. Set mapping
+  5. Reset Mapping
+  6. Quit
+
+Choice: 1
+
+Current plaintext:
+------------------
+
+Options:
+  1. Show plaintext
+  2. Show frequency
+  3. Show mapping
+  4. Set mapping
+  5. Reset Mapping
+  6. Quit
+
+Choice: 4
+Ciphertext character: u 
+Plaintext character: s
+
+Options:
+  1. Show plaintext
+  2. Show frequency
+  3. Show mapping
+  4. Set mapping
+  5. Reset Mapping
+  6. Quit
+
+Choice: 1
+
+Current plaintext:
+------------------
+
+Options:
+  1. Show plaintext
+  2. Show frequency
+  3. Show mapping
+  4. Set mapping
+  5. Reset Mapping
+  6. Quit
+
+Choice: 4
+Ciphertext character: l
+Plaintext character: i
+
+Options:
+  1. Show plaintext
+  2. Show frequency
+  3. Show mapping
+  4. Set mapping
+  5. Reset Mapping
+  6. Quit
+
+Choice: 4
+Ciphertext character: b
+Plaintext character: c
+
+Options:
+  1. Show plaintext
+  2. Show frequency
+  3. Show mapping
+  4. Set mapping
+  5. Reset Mapping
+  6. Quit
+
+Choice: 
+
+
+
+final mapping:
+----------------
+a -> x
+b -> c
+c -> d
+d -> n
+e -> h
+f -> f
+g -> b
+h -> h
+i -> k
+j -> y
+k -> s
+l -> i
+m -> f
+n -> a
+o -> e
+p -> p
+q -> o
+r -> r
+s -> v
+t -> g
+u -> w
+v -> m
+w -> t
+x -> l
+y -> r
+z -> u

@@ -1,0 +1,21 @@
+Counter({'w': 221, 'o': 213, 'n': 198, 'l': 181, 'q': 158, 'y': 149, 'k': 143, 'd': 133, 'e': 91, 'b': 85, 'p': 82, 'x': 82, 'z': 73, 'j': 63, 'c': 63, 't': 53, 'v': 53, 'm': 48, 'g': 38, 'u': 32, 's': 24, 'i': 14, 'a': 11, 'f': 5, 'h': 4, 'r': 1})
+
+bnd is repeating a lot 
+but there is a word " bnd'w " can be you'd she'd how'd 
+
+
+"lw'k" 
+
+In English Distribution is :- 
+
+in english ordr 
+
+e,t,a,i,o,n 
+
+double letters in decreasing ordr
+
+th, in,he, er, an ,re 
+
+repeated double letters in english ordr 
+
+ll,ee,ss,oo,tt
