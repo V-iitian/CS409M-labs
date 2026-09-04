@@ -44,6 +44,6 @@ if __name__=='__main__':
                 messages.append(mixed_first.decode('utf-8')[-1])
                 keys.append(k)
     result = "".join(messages)
-    print("The Flage is ",result)
+    print("\n\n\n The Flag is ",result,"\n\n\n")
     print('the key for each cipher is ',keys)
 # Find and output the flag!

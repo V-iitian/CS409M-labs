@@ -1,0 +1,13 @@
+current_flag_is :-   cs409m{
+current_english_text_is :-   one_tim
+
+
+
+
+Choose among the following operations
+1. Guess the english message
+2. Guess the flag
+3. print the flag decrypted till now
+4. print the english message decrypted till now
+5. exit the program
+give the operation you wanna go with

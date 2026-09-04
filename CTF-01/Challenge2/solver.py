@@ -14,20 +14,44 @@ if __name__=="__main__":
     # print(c1)
     # print(c2)
     cipher_xor = strxor(c1,c2)
-    print("length of the cipher text",len(cipher_xor))
-    print("english text till now is ",strxor(b"cs409m{decryption_of_encrypted_data_reveal_information}",cipher_xor[0:55]))
-    print(strxor(b"}",cipher_xor[54:55]))
-    print("flag text till now is ",strxor(b"one_time_pad_is_perfectly_secure_only_theoretically_",cipher_xor[0:52]))
-    i= int(input("give chracter pos"))
-    if i==-1:
-         j=int(input("give chracter pos for all alphabets check"))
-         for char in ALPHABET:
-                bits = bytes(char,encoding='utf-8')
-                ans = strxor(bits,cipher_xor[j:j+1])
-                print(char," used and its flag text is ",ans)
-    else:
-        print("Now working with",i," th chracter")
-        char = input("chracter you wanna try:")
-        bits = bytes(char,encoding='utf-8')
-        j=i+1
-        print(char,"is used for english text and flag is",strxor(bits,cipher_xor[i:j]))
+    loop_around = True
+    flag = "cs409m{"
+    english_text = strxor(cipher_xor[:7],bytes(flag,encoding='utf-8')).decode('utf-8')
+    print("current_flag_is :-  ",flag)
+    print("current_english_text_is :-  ",english_text)
+    print("\n\n\n")
+    curr_index = 8
+    while loop_around:
+        print("Choose among the following operations")
+        print("1. Guess the english message")
+        print("2. Guess the flag")
+        print("3. print the flag decrypted till now")
+        print("4. print the english message decrypted till now")
+        print("5. exit the program")
+        i = int(input("give the operation you wanna go with"))
+        if i==5:
+            loop_around = False
+
+        elif i==2:
+            cha = input("choose the chracter")
+            char_bytes = bytes(cha,encoding='utf-8')
+            flag = flag+cha
+            print(flag)
+            english_text = strxor(cipher_xor[:curr_index],bytes(flag,encoding='utf-8')).decode('utf-8')
+            print("current_flag_is :-  ",flag)
+            print("current_english_text_is :-  ",english_text)
+            curr_index+=1
+        elif i==1:
+            cha = input("choose the chracter")
+            char_bytes = bytes(cha,encoding='utf-8')
+            english_text=english_text+cha
+            flag = strxor(cipher_xor[:curr_index],bytes(english_text,encoding='utf-8')).decode('utf-8')
+            print("current_flag_is :-  ",flag)
+            print("current_english_text_is :-  ",english_text)
+            curr_index+=1
+        elif i==3:
+            print("current_flag_is :-  ",flag)
+        elif i==4:
+            print("current_english_text_is :-  ",english_text)
+
+    print("Final_flag_is",flag)

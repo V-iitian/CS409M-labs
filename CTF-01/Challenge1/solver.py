@@ -10,19 +10,12 @@ def load_ciphertext(filename="ciphertext.txt"):
 
 
 def show_frequency(ciphertext):
-    """
-    TO DO: Display the frequency of each letter in the ciphertext 
-    (you can use the imported 'Counter' library for convenience).
-    """
     ascii_range = np.arange(97,123,1)
     frequency_analy = Counter(char for char in ciphertext if ord(char) in ascii_range)
     print(frequency_analy)
 
     
 def show_mapping(mapping):
-    """
-    Display the current ciphertext -> plaintext mapping.
-    """
     print("\nCurrent mapping:")
     print("----------------")
 
@@ -31,10 +24,6 @@ def show_mapping(mapping):
 
 
 def decrypt(ciphertext, mapping):
-    """
-    TO DO: Decrypt the ciphertext using the current mapping.
-    Unmapped characters can remain unchanged.
-    """
     plain_text = ""
     for ch in ciphertext:
         if ch in ALPHABET:
@@ -63,9 +52,6 @@ def set_mapping(mapping, cipher_char, plain_char):
 
 
 def reset_mapping():
-    """
-    map every ciphertext letter to itself.
-    """
     return {letter: letter for letter in ALPHABET}
 
 
@@ -74,7 +60,7 @@ def main():
     mapping = reset_mapping()
     ciphertext = ciphertext.lower()
     # print(ciphertext)
-    show_frequency(ciphertext)
+    # show_frequency(ciphertext)
     print("\nInitial plaintext:")
     print("------------------")
     # print(decrypt(ciphertext, mapping))
