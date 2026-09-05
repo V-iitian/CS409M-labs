@@ -1,23 +1,23 @@
-cryptography has a well-deserved reputation as a beautiful, fascinating, exciting topic. however, it also tends to be 
-regarded as difficult, even intimidating. i think it's important to understand what exactly makes the study of cryptography 
-challenging, so you can be better prepared for what to expect. what makes cryptography difficult? cryptography demands 
-rigor, precision, and attention to detail; there are definitions, theorems, and proofs. indeed, cryptography is a 
-mathematical discipline. in cryptography, we study algorithms at a high level of abstraction. 
-compare the following two kinds of fuestions: what can we say about combining aes and sha3 (two standard cryptographic algorithms
-) in this particular way? if a is an arbitrary algorithm with security property x, and b is an arbitrary algorithm with 
-security property y, then what can we say about combining a and b in this particular way? the first fuestion asks about the 
-security properties of one fully specified algorithm. a fuick brown fox humped over the lary dog. the second fuestion is more abstract; it is about an algorithm built 
-from components a and b, which remain unspecified. concrete examples can help you understand what an algorithm does, but not 
-why it's secure. that's because security is a global property about the behavior of a system on all inputs; it's not something 
-you can see through concrete examples. besides that, our typical security goal is that when an algorithm is working as expected, 
-its outputs "look like random hunk." what good does it do to show examples of random hunk, other than to instill a false sense 
-of security? security means reasoning about what is not possible - what an adversary can't do. it usually takes more care and 
-effort to prove such negative statements. cryptography involves multiple participants, with fundamentally different 
-perspectives of the same system. it's crucial to understand which perspective is being invoked at any given time, because 
-what is true from one may be false from another. you will need to learn how to inhabit and reconcile these multiple perspectives.
-the flag for this challenge is cs409m{dear_e_you_ruined_everything}. provable security is not hust 
-"learning about cryptography using definitions, theorems, and proofs," but defining and proving things specifically about 
-security properties - that is, an algorithm's behavior in the presence of a particular adversarial attack. there are plenty of 
-mathematical facts that involve cryptography but are not about security properties (for example, this factoring/primality 
-algorithm is correct, elliptic curve addition satisfies the axioms of a group, or there is a unifue polynomial interpolating a 
-set of points).
+cryptography has a uell-cesersec reputatiod as a geautiful, fascidatidg, excitidg topic. houeser, it also tedcs to ge 
+regarcec as cifficult, esed idtimicatidg. i thidi it's importadt to udcerstadc uhat exactly maies the stucy of cryptography 
+challedgidg, so you cad ge getter preparec for uhat to expect. uhat maies cryptography cifficult? cryptography cemadcs 
+rigor, precisiod, adc attedtiod to cetail; there are cefiditiods, theorems, adc proofs. idceec, cryptography is a 
+mathematical cisciplide. id cryptography, ue stucy algorithms at a high lesel of agstractiod. 
+compare the follouidg tuo iidcs of fuestiods: uhat cad ue say agout comgididg aes adc sha3 (tuo stadcarc cryptographic algorithms
+) id this particular uay? if a is ad argitrary algorithm uith security property x, adc g is ad argitrary algorithm uith 
+security property y, thed uhat cad ue say agout comgididg a adc g id this particular uay? the first fuestiod asis agout the 
+security properties of ode fully specifiec algorithm. a fuici groud fox humpec oser the lary cog. the secodc fuestiod is more agstract; it is agout ad algorithm guilt 
+from compodedts a adc g, uhich remaid udspecifiec. codcrete examples cad help you udcerstadc uhat ad algorithm coes, gut dot 
+uhy it's secure. that's gecause security is a glogal property agout the gehasior of a system od all idputs; it's dot somethidg 
+you cad see through codcrete examples. gesices that, our typical security goal is that uhed ad algorithm is uoriidg as expectec, 
+its outputs "looi liie radcom hudi." uhat gooc coes it co to shou examples of radcom hudi, other thad to idstill a false sedse 
+of security? security meads reasodidg agout uhat is dot possigle - uhat ad acsersary cad't co. it usually taies more care adc 
+effort to prose such degatise statemedts. cryptography idsolses multiple participadts, uith fudcamedtally cifferedt 
+perspectises of the same system. it's crucial to udcerstadc uhich perspectise is geidg idsoiec at ady gised time, gecause 
+uhat is true from ode may ge false from adother. you uill deec to leard hou to idhagit adc recodcile these multiple perspectises.
+the flag for this challedge is cs409m{cear_e_you_ruidec_eserythidg}. prosagle security is dot hust 
+"leardidg agout cryptography usidg cefiditiods, theorems, adc proofs," gut cefididg adc prosidg thidgs specifically agout 
+security properties - that is, ad algorithm's gehasior id the presedce of a particular acsersarial attaci. there are pledty of 
+mathematical facts that idsolse cryptography gut are dot agout security properties (for example, this factoridg/primality 
+algorithm is correct, elliptic curse accitiod satisfies the axioms of a group, or there is a udifue polydomial idterpolatidg a 
+set of poidts).
